@@ -1,0 +1,14 @@
+{
+  "name": "game",
+  "private": "true",
+  "author": "Mikhail Vyrodov <me.vyrodov@ya.ru>",
+  "license": "MIT",
+  "scripts": {
+    "lint": "npm run --prefix=frontend lint"
+  },
+  "devDependencies": {
+    "eslint": "^8.36.0",
+    "prettier": "^2.8.7",
+    "typescript": "^4.9.5"
+  }
+}
