@@ -4,7 +4,9 @@
   "author": "Mikhail Vyrodov <me.vyrodov@ya.ru>",
   "license": "MIT",
   "scripts": {
-    "lint": "npm run --prefix=frontend lint"
+    "lint": "npm run --prefix=frontend lint",
+    "format": "prettier --write .",
+    "dev": "npm run --prefix=frontend dev"
   },
   "devDependencies": {
     "eslint": "^8.36.0",
